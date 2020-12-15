@@ -1,0 +1,9 @@
+version: "3.9"
+   
+services:
+  qipp:
+    build: .
+    environment: 
+      - ENV=local-dev
+    ports:
+      - "3000:3000"
